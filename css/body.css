@@ -1,0 +1,6 @@
+body {
+    background-color: lightslategrey;
+    display: grid;
+    grid-template-areas: "a" "b" "c";
+    grid-template-rows: 100px 650px 50px;
+}

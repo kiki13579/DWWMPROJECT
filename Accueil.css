@@ -1,0 +1,49 @@
+@import url(/css/body.css);
+header {
+    display: grid;
+    grid-template-areas: "a";
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    padding: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+main > section > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    color: black;
+    font-size: large;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+    margin: 25px;
+}
+main > section > a:hover {
+    background-color: lightsteelblue;
+    color: black;
+    transition: 0.75s;
+}
